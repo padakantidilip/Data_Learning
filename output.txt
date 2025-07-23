@@ -1,0 +1,33 @@
+no of layes:1
+no. of neurons: 10
+activation function : sofmax
+optimizer : adam
+loss function: catergorical crossentory
+no. of epochs : 10
+batch_size: 64
+test_acc : true
+test_loss : true
+
+output:
+Epoch 1/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 6s 3ms/step - accuracy: 0.2082 - loss: 123.8307    
+Epoch 2/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 2s 3ms/step - accuracy: 0.2581 - loss: 69.0305    
+Epoch 3/10
+Epoch 4/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2743 - loss: 65.5585
+Epoch 5/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 2s 3ms/step - accuracy: 0.2755 - loss: 62.3684
+Epoch 6/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2734 - loss: 67.3963
+Epoch 7/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2788 - loss: 64.3461
+Epoch 8/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2847 - loss: 60.0066
+Epoch 9/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 2s 3ms/step - accuracy: 0.2784 - loss: 62.0974
+Epoch 10/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2760 - loss: 68.4906
+313/313 ━━━━━━━━━━━━━━━━━━━━ 1s 3ms/step - accuracy: 0.2230 - loss: 101.2573
+accuracy: 0.22259999811649323
+loss: 100.7884750366211
