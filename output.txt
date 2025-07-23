@@ -48,3 +48,10 @@ Experiment-03
 no. of epochs : 30
 accuracy: 0.3041999936103821
 loss: 44.92995834350586
+
+
+
+Experiment-04
+no. of epochs: 100
+accuracy: 0.296999990940094
+loss: 52.42898178100586
