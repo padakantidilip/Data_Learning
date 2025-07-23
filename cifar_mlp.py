@@ -22,9 +22,17 @@ model.add(Dense(units=10,activation='softmax'))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 #train
-model.fit(x_train,y_train,epochs=10,batch_size=64)
-
+history = model.fit(x_train,y_train,epochs=10,batch_size=64,validation_split=0.2)
+print(history.history.items())
+print(history.history.keys())
 #evaluate
 loss, accuracy = model.evaluate(x_test, y_test)
 print(f'accuracy: {accuracy}')
 print(f'loss: {loss}')
+
+#visualization
+plt.plot(history.history['accuracy'], label='train accuracy', color ='blue')
+plt.plot(history.history['val_accuracy'], label='validation accuracy', color = 'red')
+plt.legend()
+plt.title("Epoch vs Accuracy on train and validation data")
+plt.show()
