@@ -55,3 +55,10 @@ Experiment-04
 no. of epochs: 100
 accuracy: 0.296999990940094
 loss: 52.42898178100586
+
+
+
+Experiment-05
+no of layers: 6(1024,512,256,128,64,10)
+accuracy: 0.491100013256073
+loss: 1.928472638130188
