@@ -1,0 +1,64 @@
+Experiment-01
+no of layes:1
+no. of neurons: 10
+activation function : sofmax
+optimizer : adam
+loss function: catergorical crossentory
+no. of epochs : 10
+batch_size: 64
+test_acc : true
+test_loss : true
+
+output:
+Epoch 1/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 6s 3ms/step - accuracy: 0.2082 - loss: 123.8307    
+Epoch 2/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 2s 3ms/step - accuracy: 0.2581 - loss: 69.0305    
+Epoch 3/10
+Epoch 4/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2743 - loss: 65.5585
+Epoch 5/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 2s 3ms/step - accuracy: 0.2755 - loss: 62.3684
+Epoch 6/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2734 - loss: 67.3963
+Epoch 7/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2788 - loss: 64.3461
+Epoch 8/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2847 - loss: 60.0066
+Epoch 9/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 2s 3ms/step - accuracy: 0.2784 - loss: 62.0974
+Epoch 10/10
+782/782 ━━━━━━━━━━━━━━━━━━━━ 3s 3ms/step - accuracy: 0.2760 - loss: 68.4906
+313/313 ━━━━━━━━━━━━━━━━━━━━ 1s 3ms/step - accuracy: 0.2230 - loss: 101.2573
+accuracy: 0.22259999811649323
+loss: 100.7884750366211
+
+
+
+Experiment-02
+history.history['accuracy']: true
+history.history['val_accuracy']: true
+Epoch vs Accuracy on train and validation data: true
+accuracy: 0.2572999894618988
+loss: 70.07316589355469
+
+
+
+Experiment-03
+no. of epochs : 30
+accuracy: 0.3041999936103821
+loss: 44.92995834350586
+
+
+
+Experiment-04
+no. of epochs: 100
+accuracy: 0.296999990940094
+loss: 52.42898178100586
+
+
+
+Experiment-05
+no of layers: 6(1024,512,256,128,64,10)
+accuracy: 0.491100013256073
+loss: 1.928472638130188
