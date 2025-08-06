@@ -9,7 +9,7 @@ from keras.datasets import cifar10
 #load data
 (x_train, y_train),(x_test, y_test) = cifar10.load_data()
 
-#pre processing
+#pre processing 
 y_train = to_categorical(y_train)
 y_test = to_categorical(y_test)
 
